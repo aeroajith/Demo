@@ -19,7 +19,7 @@ export const pokeData =() => async(dispatch,getState)=>{
             }
         }
         const {data} = await axios.get(
-            'https://dummyjson.com/products',
+            'https://dummyjson.com/products/',
             config)
 
         dispatch({

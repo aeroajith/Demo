@@ -17,7 +17,7 @@ export const login =(username, password) => async(dispatch)=>{
             }
         }
         const {data} = await axios.post(
-            'http://localhost:8000/token/',
+            'http://127.0.0.1:8000/token/',
             {'username':username,'password':password},config)
 
         dispatch({
