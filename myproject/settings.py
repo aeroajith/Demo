@@ -89,6 +89,7 @@ SIMPLE_JWT = {
      
 }
 
+
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
 CORS_ALLOW_ALL_ORIGINS: False
