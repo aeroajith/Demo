@@ -95,8 +95,8 @@ WSGI_APPLICATION = 'myproject.wsgi.application'
 CORS_ALLOW_ALL_ORIGINS: False
 
 CORS_ALLOWED_ORIGINS = [
-    "http://44.202.6.197",
-    "http://127.0.0.1:8000"
+    "http://127.0.0.1:8000",
+    "http://44.202.6.197"
     
     
 ]
