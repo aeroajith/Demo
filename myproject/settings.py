@@ -92,7 +92,7 @@ SIMPLE_JWT = {
 
 WSGI_APPLICATION = 'myproject.wsgi.application'
 
-CORS_ALLOW_ALL_ORIGINS: False
+CORS_ALLOW_ALL_ORIGINS: True
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:8000",
